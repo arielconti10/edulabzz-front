@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./public/styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+      type="text/css"
+    />
+
+    <title>Novo grupo</title>
+
+    <script type="text/javascript">
+      function toggleSidebar() {
+        document.getElementById("sidebar").classList.toggle("active");
+      }
+    </script>
+  </head>
+
+  <body>
+    <nav>
+      <div class="btn toggle-btn" onclick="toggleSidebar()">
+        <a>
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+      <div class="search btn">
+        <img src="public/img/baseline_search_black_18dp.png" />
+      </div>
+
+      <figure class="logo">
+        <img src="public/img/logo.png" alt="logo" />
+      </figure>
+
+      <div class="avatar">
+        <img src="public/img/avatar.png" alt="avatar" />
+      </div>
+
+      <div class="config">
+        <img src="public/img/Arrow-down.png" />
+      </div>
+
+      <div id="sidebar">
+        <span>
+          <i onClick="toggleSidebar()">X</i>
+        </span>
+        <ul>
+          <li>Home</li>
+          <li>Relatórios</li>
+          <li>Turmas</li>
+          <li>Biblioteca</li>
+          <li>Material</li>
+          <li>Recursos</li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container">
+        <form>
+          <div class="row group-name">
+            <input
+              type="text"
+              class="col-xs-8 group-name"
+              name="group-name"
+              placeholder="Nome do grupo"
+            />
+
+            <div class="col-xs-3 steps">
+              <span class="step-active">Passo 1</span>
+              <span>Passo 2</span>
+            </div>
+          </div>
+
+          <div class="row">
+            <h4 class="col-xs-12">Funcionalidades</h4>
+
+            <div class="col-xs-6 function-item">
+              <h3>Funções</h3>
+
+              <div class="search-field">
+                <input
+                  type="text"
+                  class="col-xs-12 search-function"
+                  placeholder="Digite aqui o nome da função que está procurando"
+                />
+
+              </div>
+
+              <ul id="functionList" class="function-list">
+                <li class="function-name active">
+                  <p>Nome da função</p>
+                  <label class="switch">
+                    <input type="checkbox" />
+                    <span class="slider round"></span>
+                  </label>
+                </li>
+                <li class="function-name">
+                  <p>Nome da função</p>
+                  <label class="switch">
+                    <input type="checkbox" />
+                    <span class="slider round"></span>
+                  </label>
+                </li>
+                <li class="function-name">
+                  <p>Nome da função</p>
+                  <label class="switch">
+                    <input type="checkbox" />
+                    <span class="slider round"></span>
+                  </label>
+                </li>
+                <li class="function-name">
+                  <p>Nome da função</p>
+                  <label class="switch">
+                    <input type="checkbox" />
+                    <span class="slider round"></span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-6 function-item">
+              <h3>Descrição</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                voluptate repellendus ex quis unde quidem, illo recusandae
+                voluptatum quia. Asperiores quisquam rerum ut facere commodi,
+                ipsa corrupti optio nobis maiores?
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+  <script>
+    var list = document.getElementById("functionList");
+    var itens = list.getElementsByClassName("function-name");
+    for (var i = 0; i < itens.length; i++) {
+      itens[i].addEventListener("click", function() {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+  </script>
+</html>

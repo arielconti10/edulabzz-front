@@ -1,0 +1,22 @@
+<svg width="30" height="30" xmlns="http://www.w3.org/2000/svg">
+ <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+
+ <title>trash-icon-active</title>
+ <desc>Created with Sketch.</desc>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="35.22192" width="50.171784" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_2" height="18.561133" width="3.165464" y="5.467636" x="26.061141" fill-opacity="null" stroke-opacity="null" stroke-width="1.5" stroke="#ffffff" fill="#ffffff"/>
+  <g fill-rule="evenodd" fill="none" id="🗒-Wireframes">
+   <g id="trash-icon-active">
+    <path fill="#E65A24" id="orange-bg" d="m28.055176,1.47725c2.182703,8.724894 2.182703,17.853107 0,26.578c-8.724848,2.183073 -17.853151,2.183073 -26.578001,0c-1.969567,-8.749866 -1.969567,-17.828133 0,-26.578c8.749856,-1.969667 17.828144,-1.969667 26.578001,0z"/>
+    <g fill-rule="nonzero" fill="#FFFFFF" id="trash-solid-copy">
+     <path id="Shape" d="m21.508999,7.075l-4.029999,0l-0.316,-0.628c-0.136299,-0.273977 -0.415993,-0.447139 -0.722,-0.447001l-3.841,0c-0.305331,-0.000416 -0.584273,0.173002 -0.719,0.447001l-0.316,0.628l-4.028,0c-0.296577,0 -0.537,0.240423 -0.537,0.537l0,1.075c0,0.296576 0.240423,0.537 0.537,0.537l13.971999,0c0.296577,0 0.537001,-0.240423 0.537001,-0.537l0,-1.075c0,-0.296577 -0.240423,-0.537 -0.537001,-0.537zm-12.721999,14.609c0.050885,0.852974 0.758513,1.518047 1.613,1.516005l8.25,0c0.85113,0 1.555674,-0.661547 1.608999,-1.511005l0.712002,-11.388999l-12.896001,0l0.712,11.384z"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

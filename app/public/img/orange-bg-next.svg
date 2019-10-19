@@ -1,0 +1,34 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+  <desc>Created with Sketch.</desc>
+  <g id="svg_8">
+   <g transform="matrix(4.44444, 0, 0, 4.44444, 0, 0)" fill-rule="evenodd" fill="none" id="svg_5">
+    <path fill="#E65A24" id="svg_6" d="m80.484184,26.23123c2.182709,8.72489 2.182709,17.853109 0,26.578001c-8.724846,2.183067 -17.853157,2.183067 -26.577995,0c-1.96957,-8.74987 -1.96957,-17.828129 0,-26.578001c8.749847,-1.969669 17.82814,-1.969669 26.577995,0z"/>
+   </g>
+  </g>
+  <g id="svg_23">
+   <g transform="matrix(0.350046, 0, 0, 0.341881, 120.149, 51.0015)" id="svg_15">
+    <g id="svg_16">
+     <path fill="#FFFFFF" class="active-path" d="m586.565186,352.640167l-108.297028,-108.261002c-4.751984,-4.73999 -12.450989,-4.73999 -17.214996,0c-4.752014,4.740005 -4.752014,12.439011 0,17.179001l99.70697,99.671021l-99.694977,99.67099c-4.751984,4.73999 -4.751984,12.438995 0,17.19101c4.752014,4.73999 12.463013,4.73999 17.214996,0l108.296997,-108.261017c4.679993,-4.69101 4.679993,-12.510986 -0.011963,-17.190002z" id="svg_13"/>
+     <g id="svg_17"/>
+     <g id="svg_18"/>
+     <g id="svg_19"/>
+     <g id="svg_20"/>
+     <g id="svg_21"/>
+     <g id="svg_22"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>

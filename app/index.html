@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./public/styles/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+    type="text/css">
+
+  <title>Document</title>
+
+  <script type="text/javascript">
+    function toggleSidebar() {
+      document.getElementById("sidebar").classList.toggle('active');
+    }
+  </script>
+</head>
+
+<body>
+  <nav>
+    <div class="btn toggle-btn" onclick="toggleSidebar()">
+      <a>
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+    <div class="search btn">
+      <img src="public/img/baseline_search_black_18dp.png" />
+    </div>
+
+    <figure class="logo">
+      <img src="public/img/logo.png" alt="logo" />
+    </figure>
+
+    <div class="avatar">
+      <img src="public/img/avatar.png" alt="avatar">
+    </div>
+
+    <div class="config">
+      <img src="public/img/Arrow-down.png" />
+    </div>
+
+    <div id="sidebar">
+      <span>
+        <i onClick="toggleSidebar()">X</i>
+      </span>
+      <ul>
+        <li>Home</li>
+        <li>Relatórios</li>
+        <li>Turmas</li>
+        <li>Biblioteca</li>
+        <li>Material</li>
+        <li>Recursos</li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <h1>Grupos de administração</h1>
+
+      <div class="row search">
+        <input type="search" class="col-xs-8" placeholder="Digite o nome do grupo que está procurando" />
+        <button class="btn col-xs-3" type="button">+ Novo Grupo</button>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-3 group-box">
+          <div class="edit-button-group">
+            <a href="edit-group.html">
+              <span>●</span>
+              <span>●</span>
+              <span>●</span>
+            </a>
+          </div>
+          <h3>
+            Nome do grupo
+          </h3>
+          <p>10 funções</p>
+        </div>
+        <div class="col-xs-3 group-box">
+          <h3>
+            Nome do grupo
+          </h3>
+          <p>10 funções</p>
+        </div>
+        <div class="col-xs-3 group-box">
+          <div class="edit-button-group">
+            <a href="edit-group.html">
+              <span>●</span>
+              <span>●</span>
+              <span>●</span>
+            </a>
+          </div>
+          <h3>
+            Nome do grupo
+          </h3>
+          <p>10 funções</p>
+        </div>
+        <div class="col-xs-3 group-box">
+          <div class="edit-button-group">
+            <a href="edit-group.html">
+              <span>●</span>
+              <span>●</span>
+              <span>●</span>
+            </a>
+          </div>
+          <h3>
+            Nome do grupo
+          </h3>
+          <p>10 funções</p>
+        </div>
+        <div class="col-xs-3 group-box">
+          <div class="edit-button-group">
+            <a href="edit-group.html">
+              <span>●</span>
+              <span>●</span>
+              <span>●</span>
+            </a>
+          </div>
+          <h3>
+            Nome do grupo
+          </h3>
+          <p>10 funções</p>
+        </div>
+        <div class="col-xs-3 group-box">
+          <div class="edit-button-group">
+            <a href="edit-group.html">
+              <span>●</span>
+              <span>●</span>
+              <span>●</span>
+            </a>
+          </div>
+          <h3>
+            Nome do grupo
+          </h3>
+          <p>10 funções</p>
+        </div>
+        <div class="col-xs-3 group-box">
+          <div class="edit-button-group">
+            <a href="edit-group.html">
+              <span>●</span>
+              <span>●</span>
+              <span>●</span>
+            </a>
+          </div>
+          <h3>
+            Nome do grupo
+          </h3>
+          <p>10 funções</p>
+        </div>
+        <div class="col-xs-3 group-box">
+          <div class="edit-button-group">
+            <a href="edit-group.html">
+              <span>●</span>
+              <span>●</span>
+              <span>●</span>
+            </a>
+          </div>
+          <h3>
+            Nome do grupo
+          </h3>
+          <p>10 funções</p>
+        </div>
+      </div>
+
+
+    </div>
+
+  </main>
+</body>
+
+</html>
