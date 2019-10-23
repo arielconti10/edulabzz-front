@@ -92,44 +92,55 @@
     </nav>
 
     <main>
-
       <div class="banner">
         <!-- Togglable Vertical Tabs -->
         <div class="menutab">
-            <div class="tab menu-tab">
-                <button class="tablinks" onclick="openTab(event, 'cat-0')">Acontece na Escola</button>
-                <button class="tablinks" onclick="openTab(event, 'cat-1')">Educação Infantil</button>
-                <button class="tablinks" onclick="openTab(event, 'cat-2')">Anos Iniciais</button>
-                <button class="tablinks" onclick="openTab(event, 'cat-3')">Anos Finais</button>
-                <button class="tablinks" onclick="openTab(event, 'cat-4')">Educação Médio</button>
-                <button class="tablinks" onclick="openTab(event, 'cat-5')">Docentes</button>
-            </div>        
-            
-            <div class="content-tab">
-                <div id="cat-home" class="tabcontent">
-                    <div>
-                        <div>
-                            <button  id="home-modal-tab-button" class="edit-modal"></button>
-                        </div>
-                    </div>
-                    <div class="modal-home-swap"></div>
+          <div class="tab menu-tab">
+            <button class="tablinks" onclick="openTab(event, 'cat-0')">Acontece na Escola</button>
+            <button class="tablinks" onclick="openTab(event, 'cat-1')">Educação Infantil</button>
+            <button class="tablinks" onclick="openTab(event, 'cat-2')">Anos Iniciais</button>
+            <button class="tablinks" onclick="openTab(event, 'cat-3')">Anos Finais</button>
+            <button class="tablinks" onclick="openTab(event, 'cat-4')">Educação Médio</button>
+            <button class="tablinks" onclick="openTab(event, 'cat-5')">Docentes</button>
+          </div>        
+          
+          <div class="content-tab">
+              <div id="cat-home" class="tabcontent">
+                  <div class="siema">
+                    <div><img src="public/img/homebanner.png" alt="Siema image" /></div>
+                    <div><img src="public/img/homebanner2.png" alt="Siema image" /></div>
+                    <div><img src="public/img/homebanner3.png" alt="Siema image" /></div>
+                  </div>
+                  <div>
+                      <button  id="home-modal-tab-button" class="edit-modal"></button>
+                  </div>
+              
                 </div>
                 <div id="cat-0" class="tabcontent">
-                    <div class="descriptionModal">
+                  <div class="siema descriptionModal">
+                    <div>
+                      <div class="titles">
                         <h3>DIA DA ARVORE</h3>
                         <h4>21 de Setembro</h4>
-                        <div>
-                            <!-- Carousel indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                        </ol> 
-                        </div>
+                      </div>
+                      <img src="public/img/land.png" alt="Siema image" />
                     </div>
-                    <div id="tabCarousel">
-                        
+                    <div>
+                      <div class="titles">
+                        <h3>DIA DA ARVORE</h3>
+                        <h4>21 de Setembro</h4>
+                      </div>
+                      <img src="public/img/land.png" alt="Siema image" />
                     </div>
+                    <div>
+                      <div class="titles">
+                        <h3>DIA DA ARVORE</h3>
+                        <h4>21 de Setembro</h4>
+                      </div>
+                      <img src="public/img/land.png" alt="Siema image" />
+                    </div>
+                  </div>
+                    
                     <!-- Trigger/Open The Modal-BUTTON -->
                     <div>
                         <button  id="modal-tab-button" class="edit-modal"></button>
@@ -727,5 +738,19 @@
     var numbersHome = new Carouselhome("numbersHome");
   </script>
       
+  <script src="public/js/siema.min.js"></script>    
+  <script>
+   const siemas = document.querySelectorAll('.siema');
+
+  // this is fairly new way of looping through DOM Elements
+  // More about ithere: https://pawelgrzybek.com/loop-through-a-collection-of-dom-elements/
+  // For better compatibility I suggest using for loop
+  for(const siema of siemas) {
+    new Siema({
+      selector: siema
+    })
+  }
+
+  </script>
   </body>
 </html>

@@ -393,7 +393,7 @@ div#home-modal-btns > button:nth-last-child(1):before {
   text-decoration: none;
 }
 
-#cat-0,
+/* #cat-0, */
 #cat-1,
 #cat-2,
 #cat-3,
@@ -406,18 +406,8 @@ div#home-modal-btns > button:nth-last-child(1):before {
   margin-left: 16px;
   width: 1364px;
   height: 396px;
-  background-color: green;
-  background: url(../img/homebanner.png);
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  align-content: flex-end;
+  position: relative;
   border: 3px solid #e65a24;
-}
-
-.content-tab {
-  flex-grow: 0;
-  flex-shrink: 0;
 }
 
 .quick-access-menu {
@@ -549,8 +539,9 @@ div#home-modal-btns > button:nth-last-child(1):before {
   height: 40px;
   background-position: center;
   border: 0px;
-  margin-top: 10px;
-  margin-right: 10px;
+  position: absolute;
+  top: 0;
+  right: 10px;
 }
 
 .edit-modal-content {

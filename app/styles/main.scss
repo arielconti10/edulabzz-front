@@ -451,20 +451,46 @@ input:checked + .slider:before {
 
 .descriptionModal {
   align-self: center;
-  border-left: 12px solid #3c3c3b;
   margin: 0 100px;
+  min-width: 1400px;
+  .titles {
+    padding-left: 10px;
+    margin-top: 150px;
+    border-left: 12px solid #3c3c3b;
+    float: left;
+    width: 35%;
+    height: 90px;
+    margin-left: 50px;
+    h3 {
+      font-size: 36px;
+      color: #fff;
+      border-left: 0;
+      padding: 0;
+    }
 
-  margin-right: 271px;
-  padding-left: 10px;
-
-  h3 {
-    font-size: 32px;
-    color: #fff;
-    border-left: 0;
-    padding: 0;
+    h4 {
+      font-size: 24px;
+    }
   }
 
-  h4 {
-    font-size: 20px;
+  img {
+    float: left;
+    width: 40%;
+    margin-top: 15px;
+  }
+}
+
+.siema {
+  width: 100%;
+  min-height: 600px;
+}
+
+#cat-0 {
+  width: 1364px;
+  position: relative;
+
+  .edit-modal {
+    top: 10px;
+    right: 25px;
   }
 }

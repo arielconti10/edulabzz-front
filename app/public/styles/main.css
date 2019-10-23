@@ -337,14 +337,35 @@ input:checked + .slider:before {
 
 .descriptionModal {
   align-self: center;
-  border-left: 12px solid #3c3c3b;
   margin: 0 100px;
-  margin-right: 271px;
-  padding-left: 10px; }
-  .descriptionModal h3 {
-    font-size: 32px;
-    color: #fff;
-    border-left: 0;
-    padding: 0; }
-  .descriptionModal h4 {
-    font-size: 20px; }
+  min-width: 1400px; }
+  .descriptionModal .titles {
+    padding-left: 10px;
+    margin-top: 150px;
+    border-left: 12px solid #3c3c3b;
+    float: left;
+    width: 35%;
+    height: 90px;
+    margin-left: 50px; }
+    .descriptionModal .titles h3 {
+      font-size: 36px;
+      color: #fff;
+      border-left: 0;
+      padding: 0; }
+    .descriptionModal .titles h4 {
+      font-size: 24px; }
+  .descriptionModal img {
+    float: left;
+    width: 40%;
+    margin-top: 15px; }
+
+.siema {
+  width: 100%;
+  min-height: 600px; }
+
+#cat-0 {
+  width: 1364px;
+  position: relative; }
+  #cat-0 .edit-modal {
+    top: 10px;
+    right: 25px; }
