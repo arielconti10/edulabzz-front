@@ -11,7 +11,7 @@
   background-color: rgb(255, 174, 0);
 }
 #tabCarousel > button:nth-child(1) {
-  background: url("../img/orange-bg.svg") no-repeat;
+  background: url('../img/orange-bg.svg') no-repeat;
   width: 30px;
   height: 30px;
   margin-top: auto;
@@ -164,16 +164,16 @@ div#home-modal-btns {
   display: flex;
 }
 div#home-modal-btns > button:nth-child(1):before {
-  content: "<";
+  content: '<';
   font-size: 40px;
   margin-left: -4px;
 }
 div#home-modal-btns > button {
   width: 32px;
   height: 32px;
-  background: url("../img/iconeborda.svg") no-repeat;
+  background: url('../img/iconeborda.svg') no-repeat;
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-left: 11.31px;
   vertical-align: middle;
   align-content: center;
@@ -181,11 +181,11 @@ div#home-modal-btns > button {
   line-height: 28px;
 }
 div#home-modal-btns > button.selButtonhome.active {
-  background: url("../img/orange-bg.svg") no-repeat;
+  background: url('../img/orange-bg.svg') no-repeat;
 }
 div#home-modal-btns > button:nth-last-child(2) {
   margin-left: 31.31px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
 }
 div#home-modal-btns > button:nth-last-child(1):before {
@@ -194,8 +194,8 @@ div#home-modal-btns > button:nth-last-child(1):before {
   width: 30px;
   height: 30px;
   color: white;
-  font-family: "Roboto", sans-serif;
-  content: ">";
+  font-family: 'Roboto', sans-serif;
+  content: '>';
   font-size: 40px;
 }
 
@@ -265,7 +265,7 @@ div#home-modal-btns > button:nth-last-child(1):before {
   background-color: white;
   width: 98px;
   height: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   border-radius: 4px;
   color: #e65a24;
   text-align: right;
@@ -285,7 +285,7 @@ div#home-modal-btns > button:nth-last-child(1):before {
   border: 0px;
   border-bottom: 2px solid #ffffff;
   height: 42px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   width: 918.7px;
   margin-left: 28px;
@@ -306,7 +306,8 @@ div#home-modal-btns > button:nth-last-child(1):before {
 
 /* Style the menutab */
 .menutab {
-  max-width: 1640px;
+  /* max-width: 1640px; */
+  width: 100%;
   background-color: white;
   margin: 5% auto;
   display: flex;
@@ -327,14 +328,14 @@ div#home-modal-btns > button:nth-last-child(1):before {
   height: 30px;
   width: 30px;
   border: 0px;
-  background: url("../img/orange-bg.svg") no-repeat;
+  background: url('../img/orange-bg.svg') no-repeat;
   color: white;
 }
 .modal-home-swap > button:nth-child(2) {
   height: 30px;
   width: 30px;
   border: 0px;
-  background: url("../img/orange-bg.svg") no-repeat;
+  background: url('../img/orange-bg.svg') no-repeat;
   color: white;
 }
 
@@ -384,7 +385,7 @@ div#home-modal-btns > button:nth-last-child(1):before {
 .tabcontent {
   border-left: none;
   margin: auto;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 
   display: flex;
   align-items: baseline;
@@ -404,8 +405,8 @@ div#home-modal-btns > button:nth-last-child(1):before {
 
 #cat-home {
   margin-left: 16px;
-  width: 1364px;
-  height: 396px;
+  width: 58.8rem;
+  max-height: 396px;
   position: relative;
   border: 3px solid #e65a24;
 }
@@ -586,7 +587,7 @@ div#home-modal-btns > button:nth-last-child(1):before {
   border: 0px;
   border-bottom: 2px solid #ffffff;
   height: 42px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   margin-top: -22px;
   width: 366px;
@@ -626,7 +627,7 @@ div#home-modal-btns > button:nth-last-child(1):before {
   background-color: white;
   width: 98px;
   height: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   border-radius: 4px;
   color: #e65a24;
   text-align: right;
@@ -670,7 +671,7 @@ div#home-modal-btns > button:nth-last-child(1):before {
   width: 119px;
   height: 45px;
   border-radius: 4px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   letter-spacing: 1px;
 }
@@ -705,16 +706,16 @@ div#btns {
   display: flex;
 }
 div#btns > button:nth-child(1):before {
-  content: "<";
+  content: '<';
   font-size: 40px;
   margin-left: -4px;
 }
 div#btns > button {
   width: 32px;
   height: 32px;
-  background: url("../img/iconeborda.svg") no-repeat;
+  background: url('../img/iconeborda.svg') no-repeat;
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   margin-left: 11.31px;
   vertical-align: middle;
   align-content: center;
@@ -722,11 +723,11 @@ div#btns > button {
   line-height: 28px;
 }
 div#btns > button.selButton.active {
-  background: url("../img/orange-bg.svg") no-repeat;
+  background: url('../img/orange-bg.svg') no-repeat;
 }
 div#btns > button:nth-last-child(2) {
   margin-left: 31.31px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 40px;
 }
 div#btns > button:nth-last-child(1):before {
@@ -735,8 +736,8 @@ div#btns > button:nth-last-child(1):before {
   width: 30px;
   height: 30px;
   color: white;
-  font-family: "Roboto", sans-serif;
-  content: ">";
+  font-family: 'Roboto', sans-serif;
+  content: '>';
   font-size: 40px;
 }
 
@@ -789,7 +790,7 @@ div#btns > button:nth-last-child(1):before {
 
 /* modal de upload */
 .corner-modal:after {
-  content: "";
+  content: '';
   width: 0;
   height: 0;
   border-style: solid;

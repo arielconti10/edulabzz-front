@@ -92,530 +92,534 @@
     </nav>
 
     <main>
-      <div class="banner">
-        <!-- Togglable Vertical Tabs -->
-        <div class="menutab">
-          <div class="tab menu-tab">
-            <button class="tablinks" onclick="openTab(event, 'cat-0')">Acontece na Escola</button>
-            <button class="tablinks" onclick="openTab(event, 'cat-1')">Educação Infantil</button>
-            <button class="tablinks" onclick="openTab(event, 'cat-2')">Anos Iniciais</button>
-            <button class="tablinks" onclick="openTab(event, 'cat-3')">Anos Finais</button>
-            <button class="tablinks" onclick="openTab(event, 'cat-4')">Educação Médio</button>
-            <button class="tablinks" onclick="openTab(event, 'cat-5')">Docentes</button>
-          </div>        
-          
-          <div class="content-tab">
-              <div id="cat-home" class="tabcontent">
-                  <div class="siema">
-                    <div><img src="public/img/homebanner.png" alt="Siema image" /></div>
-                    <div><img src="public/img/homebanner2.png" alt="Siema image" /></div>
-                    <div><img src="public/img/homebanner3.png" alt="Siema image" /></div>
-                  </div>
-                  <div>
-                      <button  id="home-modal-tab-button" class="edit-modal"></button>
-                  </div>
-              
-                </div>
-                <div id="cat-0" class="tabcontent">
-                  <div class="siema descriptionModal">
-                    <div>
-                      <div class="titles">
-                        <h3>DIA DA ARVORE</h3>
-                        <h4>21 de Setembro</h4>
-                      </div>
-                      <img src="public/img/land.png" alt="Siema image" />
-                    </div>
-                    <div>
-                      <div class="titles">
-                        <h3>DIA DA ARVORE</h3>
-                        <h4>21 de Setembro</h4>
-                      </div>
-                      <img src="public/img/land.png" alt="Siema image" />
-                    </div>
-                    <div>
-                      <div class="titles">
-                        <h3>DIA DA ARVORE</h3>
-                        <h4>21 de Setembro</h4>
-                      </div>
-                      <img src="public/img/land.png" alt="Siema image" />
-                    </div>
-                  </div>
-                    
-                    <!-- Trigger/Open The Modal-BUTTON -->
-                    <div>
-                        <button  id="modal-tab-button" class="edit-modal"></button>
-                    </div>
-                </div>
+      <div class="container">
+          <div class="banner">
+              <!-- Togglable Vertical Tabs -->
+              <div class="menutab">
+                <div class="tab menu-tab">
+                  <button class="tablinks" onclick="openTab(event, 'cat-0')">Acontece na Escola</button>
+                  <button class="tablinks" onclick="openTab(event, 'cat-1')">Educação Infantil</button>
+                  <button class="tablinks" onclick="openTab(event, 'cat-2')">Anos Iniciais</button>
+                  <button class="tablinks" onclick="openTab(event, 'cat-3')">Anos Finais</button>
+                  <button class="tablinks" onclick="openTab(event, 'cat-4')">Educação Médio</button>
+                  <button class="tablinks" onclick="openTab(event, 'cat-5')">Docentes</button>
+                </div>        
                 
-                <div id="cat-1" class="tabcontent">
-                    <div class="quick-access-menu">
-                        <div class="title-quick-menu">Turmas</div>
-                        <div class="quick-access-menu-quick">
-                            <div class="menu-class"><a href="#">Infantil 1A</a></div>
-                            <div class="menu-class"><a href="#">Infantil 1B</a></div>
-                            <div class="menu-class"><a href="#">Infantil 2A</a></div>
-                            <div class="menu-class"><a href="#">Infantil 2B</a></div>
-                            <div class="menu-class"><a href="#">Infantil 3A</a></div>
-                            <div class="menu-class"><a href="#">Infantil 3B</a></div>
-                            <div class="menu-class"><a href="#">Infantil 3C</a></div>
-                            <div class="menu-class"><a href="#">Infantil 4A</a></div>
+                <div class="content-tab">
+                    <div id="cat-home" class="tabcontent">
+                        <div class="siema">
+                          <div><img src="public/img/homebanner.png" alt="Siema image" /></div>
+                          <div><img src="public/img/homebanner2.png" alt="Siema image" /></div>
+                          <div><img src="public/img/homebanner3.png" alt="Siema image" /></div>
                         </div>
-                    </div>
-                    <div class="quick-access-menu column-center">
-                        <div class="title-quick-menu content-menu-center">Conteúdos</div>
-                        <div class="links-wrapper">
-                            <div>
-                                <div class="menu-class center"><a href="#">Audios</a></div>
-                                <div class="menu-class center"><a href="#">Apresentações</a></div>
-                                <div class="menu-class center"><a href="#">Avaliações</a></div>
-                                <div class="menu-class center"><a href="#">Entregáveis</a></div>
-                            </div>
-                            <div>
-                                <div class="menu-class center"><a href="#">PDF</a></div>
-                                <div class="menu-class center"><a href="#">Questões</a></div>
-                                <div class="menu-class center"><a href="#">Textos</a></div>
-                                <div class="menu-class center"><a href="#">Vídeos</a></div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="quick-access-menu">
-                        <div class="title-quick-menu">
-                            Material didático
-                        </div>
-                        <div class="quick-access-menu-quick">
-                            <div class="menu-class"><a href="#">Plano de aula</a></div>
-                            <div class="menu-class"><a href="#">Plano de estudos</a></div>
-                            <div class="menu-class"><a href="#">Trilhas de aprendizagem</a></div>
-                            <div class="menu-class"><a href="#">Atlas</a></div>
-                            <div class="menu-class"><a href="#">Mapa</a></div>
-                            <div class="menu-class"><a href="#">Planetário</a></div>
-                            <div class="menu-class"><a href="#">Exemplo 1</a></div>
-                            <div class="menu-class"><a href="#">Exemplo 2</a></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div id="cat-2" class="tabcontent">
-                    <div class="quick-access-menu">
-                        <div class="title-quick-menu">Turmas</div>
-                        <div class="quick-access-menu-quick">
-                            <div class="menu-class"><a href="#">Infantil 1A</a></div>
-                        </div>
-                    </div>
-                    <div class="quick-access-menu column-center">
-                        <div class="title-quick-menu content-menu-center">Conteúdos</div>
-                        <div class="links-wrapper">
-                            <div>
-                                <div class="menu-class center"><a href="#">Audios</a></div>
-                                <div class="menu-class center"><a href="#">Apresentações</a></div>
-                                <div class="menu-class center"><a href="#">Avaliações</a></div>
-                                <div class="menu-class center"><a href="#">Entregáveis</a></div>
-                            </div>
-                            <div>
-                                <div class="menu-class center"><a href="#">PDF</a></div>
-                                <div class="menu-class center"><a href="#">Questões</a></div>
-                                <div class="menu-class center"><a href="#">Textos</a></div>
-                                <div class="menu-class center"><a href="#">Vídeos</a></div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="quick-access-menu">
-                        <div class="title-quick-menu">
-                            Material didático
-                        </div>
-                        <div class="quick-access-menu-quick">
-                            <div class="menu-class"><a href="#">Plano de aula</a></div>
-                            <div class="menu-class"><a href="#">Plano de estudos</a></div>
-                            <div class="menu-class"><a href="#">Trilhas de aprendizagem</a></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="cat-3" class="tabcontent">
-                    <div class="quick-access-menu">
-                        <div class="title-quick-menu">Turmas</div>
-                        <div class="quick-access-menu-quick">
-                            <div class="menu-class"><a href="#">Infantil 1A</a></div>
-                            <div class="menu-class"><a href="#">Infantil 1B</a></div>
-                            <div class="menu-class"><a href="#">Infantil 2A</a></div>
-                            <div class="menu-class"><a href="#">Infantil 2B</a></div>
-                            <div class="menu-class"><a href="#">Infantil 3A</a></div>
-                        </div>
-                    </div>
-                    <div class="quick-access-menu column-center">
-                        <div class="title-quick-menu content-menu-center">Conteúdos</div>
-                        <div class="links-wrapper">
-                            <div>
-                                <div class="menu-class center"><a href="#">Audios</a></div>
-                                <div class="menu-class center"><a href="#">Apresentações</a></div>
-                                <div class="menu-class center"><a href="#">Avaliações</a></div>
-                                <div class="menu-class center"><a href="#">Entregáveis</a></div>
-                            </div>
-                            <div>
-                                <div class="menu-class center"><a href="#">PDF</a></div>
-                                <div class="menu-class center"><a href="#">Questões</a></div>
-                                <div class="menu-class center"><a href="#">Textos</a></div>
-                                <div class="menu-class center"><a href="#">Vídeos</a></div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="quick-access-menu">
-                        <div class="title-quick-menu">
-                            Material didático
-                        </div>
-                        <div class="quick-access-menu-quick">
-                            <div class="menu-class"><a href="#">Plano de aula</a></div>
-                            <div class="menu-class"><a href="#">Plano de estudos</a></div>
-                            <div class="menu-class"><a href="#">Trilhas de aprendizagem</a></div>
-                            <div class="menu-class"><a href="#">Atlas</a></div>
-                            <div class="menu-class"><a href="#">Mapa</a></div>
-                            <div class="menu-class"><a href="#">Planetário</a></div>
-                        </div>
-                    </div>
-                </div>
-            
-                <div id="cat-4" class="tabcontent">
-                    <div class="quick-access-menu">
-                        <div class="title-quick-menu">Turmas</div>
-                        <div class="quick-access-menu-quick">
-                            <div class="menu-class"><a href="#">Infantil 1A</a></div>
-                            <div class="menu-class"><a href="#">Infantil 1B</a></div>
-                        </div>
-                    </div>
-                    <div class="quick-access-menu column-center">
-                        <div class="title-quick-menu content-menu-center">Conteúdos</div>
-                        <div class="links-wrapper">
-                            <div>
-                                <div class="menu-class center"><a href="#">Audios</a></div>
-                                <div class="menu-class center"><a href="#">Apresentações</a></div>
-                                <div class="menu-class center"><a href="#">Avaliações</a></div>
-                                <div class="menu-class center"><a href="#">Entregáveis</a></div>
-                            </div>
-                            <div>
-                                <div class="menu-class center"><a href="#">PDF</a></div>
-                                <div class="menu-class center"><a href="#">Questões</a></div>
-                                <div class="menu-class center"><a href="#">Textos</a></div>
-                                <div class="menu-class center"><a href="#">Vídeos</a></div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="quick-access-menu">
-                        <div class="title-quick-menu">
-                            Material didático
-                        </div>
-                        <div class="quick-access-menu-quick">
-                                <div class="menu-class"><a href="#">Item 1</a></div>
-                                <div class="menu-class"><a href="#">Item 2</a></div>
-                                <div class="menu-class"><a href="#">Item 3</a></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="cat-5" class="tabcontent">
-                    <div class="quick-access-menu">
-                        <div class="title-quick-menu">Turmas</div>
-                        <div class="quick-access-menu-quick">
-                            <div class="menu-class"><a href="#">Infantil 1A</a></div>
-                            <div class="menu-class"><a href="#">Infantil 1B</a></div>
-                        </div>
-                    </div>
-                    <div class="quick-access-menu column-center">
-                        <div class="title-quick-menu content-menu-center">Conteúdos</div>
-                        <div class="links-wrapper">
-                            <div>
-                                <div class="menu-class center"><a href="#">Audios</a></div>
-                                <div class="menu-class center"><a href="#">Apresentações</a></div>
-                                <div class="menu-class center"><a href="#">Avaliações</a></div>
-                                <div class="menu-class center"><a href="#">Entregáveis</a></div>
-                            </div>
-                            <div>
-                                <div class="menu-class center"><a href="#">PDF</a></div>
-                                <div class="menu-class center"><a href="#">Questões</a></div>
-                                <div class="menu-class center"><a href="#">Textos</a></div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="quick-access-menu">
-                        <div class="title-quick-menu">
-                            Material didático
-                        </div>
-                        <div class="quick-access-menu-quick">
-                            <div class="menu-class"><a href="#">Item 1</a></div>
-                            <div class="menu-class"><a href="#">Item 2</a></div>
-                            <div class="menu-class"><a href="#">Item 3</a></div>
-                            <div class="menu-class"><a href="#">Item 4</a></div>
-                            <div class="menu-class"><a href="#">Item 5</a></div>
-                            <div class="menu-class"><a href="#">Item 6</a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                
-        </div>
-        <!-- END Togglable Vertical Tabs -->
-        <div>
-          <!-- Trigger/Open The Modal -->
-          <!-- The Modal -->
-          <div id="modalTab" class="modal" >
-            <!-- Modal content SHARE -->
-            <div class="modal-content corner-modal">
-                <div id="numbers">
-                    <div class="image-holder">
-                        <div class="corners">
-                            <div class="corner tr"></div>
-                            <div class="corner tl"></div>
-                            <div class="corner br"></div>
-                            <div class="corner bl"></div>
-                        </div>
-                        <img src="public/img/land.png" alt="" class="carousel" >
-                        <img src="public/img/land2.png" alt="" class="carousel" >
-                        <img src="public/img/land3.png" alt="" class="carousel" >
-                    </div>
-
-                    <div id="btns">
-                        <button onclick="numbers.prev();"></button>
-                        <button class="selButton" onclick="numbers.slide(0)">1</button>
-                        <button class="selButton" onclick="numbers.slide(1)">2</button>
-                        <button class="selButton" onclick="numbers.slide(2)">3</button>
-
-                        <button>+</button>
-                        <button  onclick="numbers.next();"></button>
-                    </div>
-                </div>
-                <div class="edit-modal-content">
-                    <input class="edit-modal-input desc" placeholder="Dia da arvore"></input>
-                    <input class="edit-modal-input" placeholder="21 de setembro"></input>
-                    <input class="edit-modal-input" placeholder="url"></input>
-                    <div>
-                        <button class="delButton" id="imageId" onclick="showElement()">
-                            <div class="trash-icon"></div>
-                        </button>
-                        <div id="myButton">
-                            <div>Deletar?</div>
-                            <button class="validButton">Sim</button>
-                            <button class="cancButton">Não</button>
-                        </div>
-                    </div>
-                    <div>
-                        <button class="saveButton">SALVAR</button>
-                    </div>
-                </div>
-                <span class="close-modal-tab">&times;</span>
-            </div>
-            <!-- END Modal content -->
-            </div>
-            <!-- END The Modal -->
-        </div>
-        <!-- END Trigger/Open The Modal -->
-        <div>
-            <!-- HOME Modal -->
-
-            <!-- The Modal -->
-            <div id="homeModal" class="modal" >
-
-            <!-- Modal content SHARE -->
-            <div class="modal-content corner-modal">
-                <div id="numbersHome">
-                    <div class="home-image-holder">
-                        <div class="corners">
-                            <div class="corner tr"></div>
-                            <div class="corner tl"></div>
-                            <div class="corner br"></div>
-                            <div class="corner bl"></div>
-                        </div>
-                        <img src="public/img/land.png" alt="" class="home-carousel" >
-                        <img src="public/img/land2.png" alt="" class="home-carousel" >
-                        <img src="public/img/land3.png" alt="" class="home-carousel" >
-                    </div>
-                    <input class="edit-modal-home-input" placeholder="url"></input>
-
-                    <div>
                         <div>
-                            <button class="delButtonhome" id="imageIdhome" onclick="showElementhome()">
-                                <div class="trash-icon"></div>
-                            </button>
-                            <div id="myButtonhome">
-                                <div>Deletar?</div>
-                                <button class="validButton">Sim</button>
-                                <button class="cancButton">Não</button>
+                            <button  id="home-modal-tab-button" class="edit-modal"></button>
+                        </div>
+                    
+                      </div>
+                      <div id="cat-0" class="tabcontent">
+                        <div class="siema descriptionModal">
+                          <div>
+                            <div class="titles">
+                              <h3>DIA DA ARVORE</h3>
+                              <h4>21 de Setembro</h4>
                             </div>
-                        </div>
-                        <div id="home-modal-btns">
-                            <button onclick="numbersHome.prev();"></button>
-                            <button class="selButtonhome" onclick="numbersHome.slide(0)">1</button>
-                            <button class="selButtonhome" onclick="numbersHome.slide(1)">2</button>
-                            <button class="selButtonhome" onclick="numbersHome.slide(2)">3</button>
-            
-                            <button>+</button>
-                            <button  onclick="numbersHome.next();"></button>
-                        </div>
-                        <div class="edit-modal-home-content">
-                            <div>
-                                <button class="saveButton">SALVAR</button>
+                            <img src="public/img/land.png" alt="Siema image" />
+                          </div>
+                          <div>
+                            <div class="titles">
+                              <h3>DIA DA ARVORE</h3>
+                              <h4>21 de Setembro</h4>
                             </div>
+                            <img src="public/img/land.png" alt="Siema image" />
+                          </div>
+                          <div>
+                            <div class="titles">
+                              <h3>DIA DA ARVORE</h3>
+                              <h4>21 de Setembro</h4>
+                            </div>
+                            <img src="public/img/land.png" alt="Siema image" />
+                          </div>
                         </div>
-                    </div>
-                </div>
-                <span class="home-close-modal-tab">&times;</span>
-            </div>
-            <!-- END Modal content -->
-            </div>
-            <!-- END The Modal -->
-        </div>
-        <!-- END Trigger/Open The Modal -->
-      </div> 
+                          
+                          <!-- Trigger/Open The Modal-BUTTON -->
+                          <div>
+                              <button  id="modal-tab-button" class="edit-modal"></button>
+                          </div>
+                      </div>
+                      
+                      <div id="cat-1" class="tabcontent">
+                          <div class="quick-access-menu">
+                              <div class="title-quick-menu">Turmas</div>
+                              <div class="quick-access-menu-quick">
+                                  <div class="menu-class"><a href="#">Infantil 1A</a></div>
+                                  <div class="menu-class"><a href="#">Infantil 1B</a></div>
+                                  <div class="menu-class"><a href="#">Infantil 2A</a></div>
+                                  <div class="menu-class"><a href="#">Infantil 2B</a></div>
+                                  <div class="menu-class"><a href="#">Infantil 3A</a></div>
+                                  <div class="menu-class"><a href="#">Infantil 3B</a></div>
+                                  <div class="menu-class"><a href="#">Infantil 3C</a></div>
+                                  <div class="menu-class"><a href="#">Infantil 4A</a></div>
+                              </div>
+                          </div>
+                          <div class="quick-access-menu column-center">
+                              <div class="title-quick-menu content-menu-center">Conteúdos</div>
+                              <div class="links-wrapper">
+                                  <div>
+                                      <div class="menu-class center"><a href="#">Audios</a></div>
+                                      <div class="menu-class center"><a href="#">Apresentações</a></div>
+                                      <div class="menu-class center"><a href="#">Avaliações</a></div>
+                                      <div class="menu-class center"><a href="#">Entregáveis</a></div>
+                                  </div>
+                                  <div>
+                                      <div class="menu-class center"><a href="#">PDF</a></div>
+                                      <div class="menu-class center"><a href="#">Questões</a></div>
+                                      <div class="menu-class center"><a href="#">Textos</a></div>
+                                      <div class="menu-class center"><a href="#">Vídeos</a></div>
+                                  </div>
+                              </div>
+                              
+                          </div>
+                          <div class="quick-access-menu">
+                              <div class="title-quick-menu">
+                                  Material didático
+                              </div>
+                              <div class="quick-access-menu-quick">
+                                  <div class="menu-class"><a href="#">Plano de aula</a></div>
+                                  <div class="menu-class"><a href="#">Plano de estudos</a></div>
+                                  <div class="menu-class"><a href="#">Trilhas de aprendizagem</a></div>
+                                  <div class="menu-class"><a href="#">Atlas</a></div>
+                                  <div class="menu-class"><a href="#">Mapa</a></div>
+                                  <div class="menu-class"><a href="#">Planetário</a></div>
+                                  <div class="menu-class"><a href="#">Exemplo 1</a></div>
+                                  <div class="menu-class"><a href="#">Exemplo 2</a></div>
+                              </div>
+                          </div>
+                      </div>
+                      
+                      <div id="cat-2" class="tabcontent">
+                          <div class="quick-access-menu">
+                              <div class="title-quick-menu">Turmas</div>
+                              <div class="quick-access-menu-quick">
+                                  <div class="menu-class"><a href="#">Infantil 1A</a></div>
+                              </div>
+                          </div>
+                          <div class="quick-access-menu column-center">
+                              <div class="title-quick-menu content-menu-center">Conteúdos</div>
+                              <div class="links-wrapper">
+                                  <div>
+                                      <div class="menu-class center"><a href="#">Audios</a></div>
+                                      <div class="menu-class center"><a href="#">Apresentações</a></div>
+                                      <div class="menu-class center"><a href="#">Avaliações</a></div>
+                                      <div class="menu-class center"><a href="#">Entregáveis</a></div>
+                                  </div>
+                                  <div>
+                                      <div class="menu-class center"><a href="#">PDF</a></div>
+                                      <div class="menu-class center"><a href="#">Questões</a></div>
+                                      <div class="menu-class center"><a href="#">Textos</a></div>
+                                      <div class="menu-class center"><a href="#">Vídeos</a></div>
+                                  </div>
+                              </div>
+                              
+                          </div>
+                          <div class="quick-access-menu">
+                              <div class="title-quick-menu">
+                                  Material didático
+                              </div>
+                              <div class="quick-access-menu-quick">
+                                  <div class="menu-class"><a href="#">Plano de aula</a></div>
+                                  <div class="menu-class"><a href="#">Plano de estudos</a></div>
+                                  <div class="menu-class"><a href="#">Trilhas de aprendizagem</a></div>
+                              </div>
+                          </div>
+                      </div>
       
-    <div class="container fast-access">
-      <div class="row">
-        <nav>
-          <div class="col-xs-9">
-            <div class="box">
-              <div class="col-xs-12">
-                <ul>
-                  <li>
-                    <figure>
-                      <img src="public/icons/correction.svg" />
-                      <figcaption>Correção de atividades</figcaption>
-                    </figure>
-                  </li>
-                  <li>
-                    <figure>
-                      <img src="public/icons/question.svg" />
-                      <figcaption>Duvidas dos alunos</figcaption>
-                    </figure>
-                  </li>
-                  <li>
-                    <figure>
-                      <img src="public/icons/graph.svg" />
-                      <figcaption>Teste de nivelamento</figcaption>
-                    </figure>
-                  </li>
-                  <li>
-                    <figure>
-                      <img src="public/icons/hashtag.svg" />
-                      <figcaption>Glossário</figcaption>
-                    </figure>
-                  </li>
-                  <li>
-                    <figure>
-                      <img src="public/icons/books-stack-of-three.svg" />
-                      <figcaption>Biblioteca</figcaption>
-                    </figure>
-                  </li>
-                  <li>
-                    <figure>
-                      <img src="public/icons/surface1.svg" />
-                      <figcaption>Gamificação</figcaption>
-                    </figure>
-                  </li>
-                  <li>
-                    <figure>
-                      <img src="public/icons/question (1).svg" />
-                      <figcaption>Perguntas Frequentes</figcaption>
-                    </figure>
-                  </li>
-                </ul>
+                      <div id="cat-3" class="tabcontent">
+                          <div class="quick-access-menu">
+                              <div class="title-quick-menu">Turmas</div>
+                              <div class="quick-access-menu-quick">
+                                  <div class="menu-class"><a href="#">Infantil 1A</a></div>
+                                  <div class="menu-class"><a href="#">Infantil 1B</a></div>
+                                  <div class="menu-class"><a href="#">Infantil 2A</a></div>
+                                  <div class="menu-class"><a href="#">Infantil 2B</a></div>
+                                  <div class="menu-class"><a href="#">Infantil 3A</a></div>
+                              </div>
+                          </div>
+                          <div class="quick-access-menu column-center">
+                              <div class="title-quick-menu content-menu-center">Conteúdos</div>
+                              <div class="links-wrapper">
+                                  <div>
+                                      <div class="menu-class center"><a href="#">Audios</a></div>
+                                      <div class="menu-class center"><a href="#">Apresentações</a></div>
+                                      <div class="menu-class center"><a href="#">Avaliações</a></div>
+                                      <div class="menu-class center"><a href="#">Entregáveis</a></div>
+                                  </div>
+                                  <div>
+                                      <div class="menu-class center"><a href="#">PDF</a></div>
+                                      <div class="menu-class center"><a href="#">Questões</a></div>
+                                      <div class="menu-class center"><a href="#">Textos</a></div>
+                                      <div class="menu-class center"><a href="#">Vídeos</a></div>
+                                  </div>
+                              </div>
+                              
+                          </div>
+                          <div class="quick-access-menu">
+                              <div class="title-quick-menu">
+                                  Material didático
+                              </div>
+                              <div class="quick-access-menu-quick">
+                                  <div class="menu-class"><a href="#">Plano de aula</a></div>
+                                  <div class="menu-class"><a href="#">Plano de estudos</a></div>
+                                  <div class="menu-class"><a href="#">Trilhas de aprendizagem</a></div>
+                                  <div class="menu-class"><a href="#">Atlas</a></div>
+                                  <div class="menu-class"><a href="#">Mapa</a></div>
+                                  <div class="menu-class"><a href="#">Planetário</a></div>
+                              </div>
+                          </div>
+                      </div>
+                  
+                      <div id="cat-4" class="tabcontent">
+                          <div class="quick-access-menu">
+                              <div class="title-quick-menu">Turmas</div>
+                              <div class="quick-access-menu-quick">
+                                  <div class="menu-class"><a href="#">Infantil 1A</a></div>
+                                  <div class="menu-class"><a href="#">Infantil 1B</a></div>
+                              </div>
+                          </div>
+                          <div class="quick-access-menu column-center">
+                              <div class="title-quick-menu content-menu-center">Conteúdos</div>
+                              <div class="links-wrapper">
+                                  <div>
+                                      <div class="menu-class center"><a href="#">Audios</a></div>
+                                      <div class="menu-class center"><a href="#">Apresentações</a></div>
+                                      <div class="menu-class center"><a href="#">Avaliações</a></div>
+                                      <div class="menu-class center"><a href="#">Entregáveis</a></div>
+                                  </div>
+                                  <div>
+                                      <div class="menu-class center"><a href="#">PDF</a></div>
+                                      <div class="menu-class center"><a href="#">Questões</a></div>
+                                      <div class="menu-class center"><a href="#">Textos</a></div>
+                                      <div class="menu-class center"><a href="#">Vídeos</a></div>
+                                  </div>
+                              </div>
+                              
+                          </div>
+                          <div class="quick-access-menu">
+                              <div class="title-quick-menu">
+                                  Material didático
+                              </div>
+                              <div class="quick-access-menu-quick">
+                                      <div class="menu-class"><a href="#">Item 1</a></div>
+                                      <div class="menu-class"><a href="#">Item 2</a></div>
+                                      <div class="menu-class"><a href="#">Item 3</a></div>
+                              </div>
+                          </div>
+                      </div>
+      
+                      <div id="cat-5" class="tabcontent">
+                          <div class="quick-access-menu">
+                              <div class="title-quick-menu">Turmas</div>
+                              <div class="quick-access-menu-quick">
+                                  <div class="menu-class"><a href="#">Infantil 1A</a></div>
+                                  <div class="menu-class"><a href="#">Infantil 1B</a></div>
+                              </div>
+                          </div>
+                          <div class="quick-access-menu column-center">
+                              <div class="title-quick-menu content-menu-center">Conteúdos</div>
+                              <div class="links-wrapper">
+                                  <div>
+                                      <div class="menu-class center"><a href="#">Audios</a></div>
+                                      <div class="menu-class center"><a href="#">Apresentações</a></div>
+                                      <div class="menu-class center"><a href="#">Avaliações</a></div>
+                                      <div class="menu-class center"><a href="#">Entregáveis</a></div>
+                                  </div>
+                                  <div>
+                                      <div class="menu-class center"><a href="#">PDF</a></div>
+                                      <div class="menu-class center"><a href="#">Questões</a></div>
+                                      <div class="menu-class center"><a href="#">Textos</a></div>
+                                  </div>
+                              </div>
+                              
+                          </div>
+                          <div class="quick-access-menu">
+                              <div class="title-quick-menu">
+                                  Material didático
+                              </div>
+                              <div class="quick-access-menu-quick">
+                                  <div class="menu-class"><a href="#">Item 1</a></div>
+                                  <div class="menu-class"><a href="#">Item 2</a></div>
+                                  <div class="menu-class"><a href="#">Item 3</a></div>
+                                  <div class="menu-class"><a href="#">Item 4</a></div>
+                                  <div class="menu-class"><a href="#">Item 5</a></div>
+                                  <div class="menu-class"><a href="#">Item 6</a></div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                      
               </div>
-              <div class="col-xs-12">
-                <ul>
-                  <li>
-                    <figure>
-                      <img src="public/icons/ENEM.svg" />
-                      <figcaption>ENEM</figcaption>
-                    </figure>
-                  </li>
-                  <li>
-                    <figure>
-                      <img src="public/icons/line-chart.svg" />
-                      <figcaption>IDEB</figcaption>
-                    </figure>
-                  </li>
-                  <li>
-                    <figure>
-                      <img src="public/icons/world.svg" />
-                      <figcaption>PISA</figcaption>
-                    </figure>
-                  </li>
-                  <li>
-                    <figure>
-                      <img src="public/icons/brazil-map.svg" />
-                      <figcaption>SAEB</figcaption>
-                    </figure>
-                  </li>
-                  <li>
-                    <figure>
-                      <img src="public/icons/students-cap.svg" />
-                      <figcaption>MEC</figcaption>
-                    </figure>
-                  </li>
-                  <li>
-                    <figure>
-                      <img src="public/icons/indica.svg" />
-                      <figcaption>INDICA</figcaption>
-                    </figure>
-                  </li>
-                  <li>
-                    <figure>
-                      <img src="public/icons/britannicaescola.svg" />
-                      <figcaption>BRITANICA ESCOLA</figcaption>
-                    </figure>
-                  </li>
-                </ul>
+              <!-- END Togglable Vertical Tabs -->
+              <div>
+                <!-- Trigger/Open The Modal -->
+                <!-- The Modal -->
+                <div id="modalTab" class="modal" >
+                  <!-- Modal content SHARE -->
+                  <div class="modal-content corner-modal">
+                      <div id="numbers">
+                          <div class="image-holder">
+                              <div class="corners">
+                                  <div class="corner tr"></div>
+                                  <div class="corner tl"></div>
+                                  <div class="corner br"></div>
+                                  <div class="corner bl"></div>
+                              </div>
+                              <img src="public/img/land.png" alt="" class="carousel" >
+                              <img src="public/img/land2.png" alt="" class="carousel" >
+                              <img src="public/img/land3.png" alt="" class="carousel" >
+                          </div>
+      
+                          <div id="btns">
+                              <button onclick="numbers.prev();"></button>
+                              <button class="selButton" onclick="numbers.slide(0)">1</button>
+                              <button class="selButton" onclick="numbers.slide(1)">2</button>
+                              <button class="selButton" onclick="numbers.slide(2)">3</button>
+      
+                              <button>+</button>
+                              <button  onclick="numbers.next();"></button>
+                          </div>
+                      </div>
+                      <div class="edit-modal-content">
+                          <input class="edit-modal-input desc" placeholder="Dia da arvore"></input>
+                          <input class="edit-modal-input" placeholder="21 de setembro"></input>
+                          <input class="edit-modal-input" placeholder="url"></input>
+                          <div>
+                              <button class="delButton" id="imageId" onclick="showElement()">
+                                  <div class="trash-icon"></div>
+                              </button>
+                              <div id="myButton">
+                                  <div>Deletar?</div>
+                                  <button class="validButton">Sim</button>
+                                  <button class="cancButton">Não</button>
+                              </div>
+                          </div>
+                          <div>
+                              <button class="saveButton">SALVAR</button>
+                          </div>
+                      </div>
+                      <span class="close-modal-tab">&times;</span>
+                  </div>
+                  <!-- END Modal content -->
+                  </div>
+                  <!-- END The Modal -->
               </div>
+              <!-- END Trigger/Open The Modal -->
+              <div>
+                  <!-- HOME Modal -->
+      
+                  <!-- The Modal -->
+                  <div id="homeModal" class="modal" >
+      
+                  <!-- Modal content SHARE -->
+                  <div class="modal-content corner-modal">
+                      <div id="numbersHome">
+                          <div class="home-image-holder">
+                              <div class="corners">
+                                  <div class="corner tr"></div>
+                                  <div class="corner tl"></div>
+                                  <div class="corner br"></div>
+                                  <div class="corner bl"></div>
+                              </div>
+                              <img src="public/img/land.png" alt="" class="home-carousel" >
+                              <img src="public/img/land2.png" alt="" class="home-carousel" >
+                              <img src="public/img/land3.png" alt="" class="home-carousel" >
+                          </div>
+                          <input class="edit-modal-home-input" placeholder="url"></input>
+      
+                          <div>
+                              <div>
+                                  <button class="delButtonhome" id="imageIdhome" onclick="showElementhome()">
+                                      <div class="trash-icon"></div>
+                                  </button>
+                                  <div id="myButtonhome">
+                                      <div>Deletar?</div>
+                                      <button class="validButton">Sim</button>
+                                      <button class="cancButton">Não</button>
+                                  </div>
+                              </div>
+                              <div id="home-modal-btns">
+                                  <button onclick="numbersHome.prev();"></button>
+                                  <button class="selButtonhome" onclick="numbersHome.slide(0)">1</button>
+                                  <button class="selButtonhome" onclick="numbersHome.slide(1)">2</button>
+                                  <button class="selButtonhome" onclick="numbersHome.slide(2)">3</button>
+                  
+                                  <button>+</button>
+                                  <button  onclick="numbersHome.next();"></button>
+                              </div>
+                              <div class="edit-modal-home-content">
+                                  <div>
+                                      <button class="saveButton">SALVAR</button>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <span class="home-close-modal-tab">&times;</span>
+                  </div>
+                  <!-- END Modal content -->
+                  </div>
+                  <!-- END The Modal -->
+              </div>
+              <!-- END Trigger/Open The Modal -->
+            </div> 
+            
+          <div class="container fast-access">
+            <div class="row">
+              <nav>
+                <div class="col-xs-7">
+                  <div class="box">
+                    <div class="col-xs-12">
+                      <ul>
+                        <li>
+                          <figure>
+                            <img src="public/icons/correction.svg" />
+                            <figcaption>Correção de atividades</figcaption>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure>
+                            <img src="public/icons/question.svg" />
+                            <figcaption>Duvidas dos alunos</figcaption>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure>
+                            <img src="public/icons/graph.svg" />
+                            <figcaption>Teste de nivelamento</figcaption>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure>
+                            <img src="public/icons/hashtag.svg" />
+                            <figcaption>Glossário</figcaption>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure>
+                            <img src="public/icons/books-stack-of-three.svg" />
+                            <figcaption>Biblioteca</figcaption>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure>
+                            <img src="public/icons/surface1.svg" />
+                            <figcaption>Gamificação</figcaption>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure>
+                            <img src="public/icons/question (1).svg" />
+                            <figcaption>Perguntas Frequentes</figcaption>
+                          </figure>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-xs-12">
+                      <ul>
+                        <li>
+                          <figure>
+                            <img src="public/icons/ENEM.svg" />
+                            <figcaption>ENEM</figcaption>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure>
+                            <img src="public/icons/line-chart.svg" />
+                            <figcaption>IDEB</figcaption>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure>
+                            <img src="public/icons/world.svg" />
+                            <figcaption>PISA</figcaption>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure>
+                            <img src="public/icons/brazil-map.svg" />
+                            <figcaption>SAEB</figcaption>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure>
+                            <img src="public/icons/students-cap.svg" />
+                            <figcaption>MEC</figcaption>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure>
+                            <img src="public/icons/indica.svg" />
+                            <figcaption>INDICA</figcaption>
+                          </figure>
+                        </li>
+                        <li>
+                          <figure>
+                            <img src="public/icons/britannicaescola.svg" />
+                            <figcaption>BRITANICA ESCOLA</figcaption>
+                          </figure>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-xs-4">
+                  <div class="box box-2">
+                    <div class="col-xs-12">
+                      <ul class="row">
+                        <li class="col-xs-4">
+                          <figure>
+                            <img src="public/icons/agenda.svg" />
+                            <figcaption>Agenda</figcaption>
+                          </figure>
+                        </li>
+                        <li class="col-xs-4">
+                          <figure>
+                            <img src="public/icons/murais.svg" />
+                            <figcaption>Agenda</figcaption>
+                          </figure>
+                        </li>
+                        <li class="col-xs-4">
+                          <figure>
+                            <img src="public/icons/pie-chart.svg" />
+                            <figcaption>Estatísticas</figcaption>
+                          </figure>
+                        </li>
+                        <li class="col-xs-4">
+                          <figure>
+                            <img src="public/icons/poker-playing-cards.svg" />
+                            <figcaption>Cards Creator</figcaption>
+                          </figure>
+                        </li>
+                        <li class="col-xs-4">
+                          <figure>
+                            <img src="public/icons/castcreator.svg" />
+                            <figcaption>Cast creator</figcaption>
+                          </figure>
+                        </li>
+                        <li class="col-xs-4">
+                          <figure>
+                            <img src="public/icons/game.svg" />
+                            <figcaption>Hub Creator</figcaption>
+                          </figure>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </nav>
             </div>
           </div>
-          <div class="col-xs-4">
-            <div class="box box-2">
-              <div class="col-xs-12">
-                <ul class="row">
-                  <li class="col-xs-4">
-                    <figure>
-                      <img src="public/icons/agenda.svg" />
-                      <figcaption>Agenda</figcaption>
-                    </figure>
-                  </li>
-                  <li class="col-xs-4">
-                    <figure>
-                      <img src="public/icons/murais.svg" />
-                      <figcaption>Agenda</figcaption>
-                    </figure>
-                  </li>
-                  <li class="col-xs-4">
-                    <figure>
-                      <img src="public/icons/pie-chart.svg" />
-                      <figcaption>Estatísticas</figcaption>
-                    </figure>
-                  </li>
-                  <li class="col-xs-4">
-                    <figure>
-                      <img src="public/icons/poker-playing-cards.svg" />
-                      <figcaption>Cards Creator</figcaption>
-                    </figure>
-                  </li>
-                  <li class="col-xs-4">
-                    <figure>
-                      <img src="public/icons/castcreator.svg" />
-                      <figcaption>Cast creator</figcaption>
-                    </figure>
-                  </li>
-                  <li class="col-xs-4">
-                    <figure>
-                      <img src="public/icons/game.svg" />
-                      <figcaption>Hub Creator</figcaption>
-                    </figure>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav>
+
       </div>
-    </div>
+      
     </main>
 
     <style type="text/css">
