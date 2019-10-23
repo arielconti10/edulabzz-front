@@ -306,8 +306,7 @@ div#home-modal-btns > button:nth-last-child(1):before {
 
 /* Style the menutab */
 .menutab {
-  /* max-width: 1640px; */
-  width: 100%;
+  max-width: 1640px;
   background-color: white;
   margin: 5% auto;
   display: flex;
@@ -405,8 +404,8 @@ div#home-modal-btns > button:nth-last-child(1):before {
 
 #cat-home {
   margin-left: 16px;
-  width: 58.8rem;
-  max-height: 396px;
+  width: 1364px;
+  height: 396px;
   position: relative;
   border: 3px solid #e65a24;
 }
